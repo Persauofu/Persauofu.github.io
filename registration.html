@@ -1,24 +1,122 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#f8f3ea">
-  <meta name="description" content="Register for PERSA events at the University of Utah.">
-  <title>Halloween Registration | PERSA</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Vazirmatn:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/styles.css?v=20260930-order-flow">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f66b20">
+  <meta name="description" content="Official information and registration for the PERSA Halloween Party 2026 at the University of Utah.">
+  <title>Halloween Party 2026 | PERSA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Vazirmatn:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles.css?v=20260930-party-registration">
 </head>
-<body class="inner-page registration-page">
-  <header class="site-header scrolled"><nav class="nav shell"><a class="brand brand-logo" href="index.html"><img src="assets/images/persa-logo-transparent.png" alt="PERSA official logo"></a><a class="text-link" href="index.html#events">← Back to events</a></nav></header>
-  <main class="inner-main">
-    <section class="registration-hero"><div class="shell"><p class="eyebrow">Registration open until October 23</p><h1>PERSA Halloween<br>Party 2026</h1><p class="registration-required">Registration is required for every partygoer.</p><div class="event-facts"><span>Friday, October 30</span><span>7:00–11:00 PM</span><span>Cottonwood Community Center</span></div></div></section>
-    <section class="shell registration-layout">
-      <form class="registration-form" id="registration-form">
-        <div class="form-section"><span class="step">01</span><div><h2>Build your order</h2><label for="event-select">Event</label><select id="event-select" name="event" required><option value="">Choose an event</option></select><div class="event-summary" id="event-summary">Choose an event to see details.</div><label>Ticket type<select name="ticketType" id="ticket-type" required><option value="">Select one</option><option value="student">University of Utah student — $20 each</option><option value="guest">Non-student — $30 each</option></select></label><label id="uid-field" hidden>University ID (uNID)<input name="uid" id="uid-input" inputmode="numeric" pattern="u?[0-9]{7}" placeholder="u1234567"><small id="uid-help">Required for student pricing. This checks the uNID format only; PERSA may verify eligibility before confirming.</small></label><label id="quantity-field" hidden>Number of tickets<select name="quantity" id="ticket-quantity"></select><small id="quantity-help"></small></label><div class="ticket-total" id="ticket-total" hidden><span>Your total</span><strong>$0</strong><small>Dinner included</small></div></div></div>
-        <div class="form-section"><span class="step">02</span><div><h2>Who is coming?</h2><div class="field-grid"><label>Main participant’s full name<input name="name" required autocomplete="name"></label><label>Email<input name="email" type="email" required autocomplete="email"></label></div><label>Phone number <small>(for event updates)</small><input name="phone" type="tel" autocomplete="tel"></label><div id="guest-fields" class="guest-fields"></div><label>Accessibility or dietary note <small>(optional)</small><textarea name="notes" rows="3"></textarea></label></div></div>
-        <div class="form-section"><span class="step">03</span><div><h2>Pay, upload, done</h2><div class="notice payment-notice"><strong>1. Venmo @Amirali6112</strong><br>Memo: <strong>“Halloween Party + main participant name”</strong>.<br><br><strong>2. Continue to the official form</strong><br>Upload your payment screenshot there. Your registration is complete only after the form is submitted.</div><label class="check"><input type="checkbox" name="paymentAcknowledged" required> I understand that every attendee must be registered and payment proof is required.</label><label class="check"><input type="checkbox" required> I confirm the information above is accurate.</label><button class="button" type="submit">Continue to official registration <span>→</span></button><p class="form-status" id="form-status" role="status"></p></div></div>
-      </form>
-      <aside class="payment-panel"><p class="eyebrow">Halloween 2026</p><h2>Your quick checklist</h2><ol><li>Choose student or non-student pricing.</li><li>Students may purchase one or two $20 tickets with one valid uNID.</li><li>Non-students may purchase multiple $30 tickets.</li><li>Enter the main participant’s name; extra guest names are optional.</li><li>Venmo <strong>@Amirali6112</strong> with the required memo.</li><li>Upload the receipt in the official Google Form.</li></ol><div id="venmo-box" class="venmo-box"><span>Venmo</span><strong>@Amirali6112</strong><span>Required memo</span><strong>Halloween Party + main name</strong></div><p class="fine-print">Dinner is included. Capacity is limited. Registration closes October 23 or earlier if the event sells out. Never enter a Venmo password, bank information, or card number on this site.</p></aside>
+<body class="inner-page party-guide-page">
+  <header class="site-header scrolled">
+    <nav class="nav shell">
+      <a class="brand brand-logo" href="index.html"><img src="assets/images/persa-logo-transparent.png" alt="PERSA official logo"></a>
+      <a class="text-link" href="index.html#events">← Back to events</a>
+    </nav>
+  </header>
+
+  <main class="inner-main party-guide-main">
+    <section class="party-guide-hero">
+      <div class="shell party-guide-hero-grid">
+        <div class="party-guide-intro">
+          <p class="eyebrow">Registration closes October 23 or when capacity is reached</p>
+          <h1>PERSA Halloween<br>Party 2026</h1>
+          <p class="registration-required">Registration is REQUIRED for every partygoer</p>
+          <p class="party-lead">DJ, dancing, dinner, costumes, photos—and a long-awaited night together at Cottonwood.</p>
+          <div class="event-facts"><span>Friday, October 30</span><span>7:00–11:00 PM</span><span>Dinner included</span></div>
+          <a class="button party-register-button" href="#registration-options">Choose registration <span>↓</span></a>
+        </div>
+        <figure class="party-flyer-card">
+          <img src="assets/images/events/halloween-flyer-2026.png" alt="PERSA Halloween Night 2026 flyer with date, time, and Cottonwood Community Center location">
+          <figcaption>Official PERSA Halloween Night flyer</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="shell party-details-grid">
+      <article class="party-copy-card english-copy">
+        <p class="eyebrow">English</p>
+        <h2>Costume up. Show up.<br>Let’s party.</h2>
+        <p>After a long time apart, it is finally time to get everyone together for a proper celebration. This Halloween will have a DJ, dancing, music, dinner, photos, and plenty of memories with the PERSA community.</p>
+        <p>Halloween is not Halloween without a costume—start planning yours now and help us make Cottonwood unforgettable.</p>
+        <div class="party-highlight-list">
+          <p><strong>When</strong><span>Friday, October 30 · 7:00–11:00 PM</span></p>
+          <p><strong>Where</strong><span>Cottonwood Community Center · Sunnyside Apartments (West Village)</span></p>
+          <p><strong>University</strong><span>$20 per ticket · one University user may buy 1 or 2 tickets</span></p>
+          <p><strong>Non-student</strong><span>$30 per ticket · multiple tickets available</span></p>
+        </div>
+        <p><strong>Capacity is limited.</strong> Registration is open until October 23 and may close earlier if the event sells out.</p>
+      </article>
+
+      <article class="party-copy-card persian-copy" lang="fa" dir="rtl">
+        <p class="eyebrow">فارسی</p>
+        <h2>کاستومت رو آماده کن؛<br>وقت جشنه!</h2>
+        <p>بعد از مدت‌ها، وقتشه دوباره همه دور هم جمع بشیم و یه شب درست‌وحسابی جشن بگیریم. امسال هالووین با دی‌جی، رقص و موزیک، شام، عکس و کلی خاطره در کنار خانواده‌ی پرسا برگزار می‌شه.</p>
+        <p>هالووین بدون کاستوم که هالووین نیست! از الان به فکر کاستومت باش و بیا تا با هم Cottonwood رو بترکونیم.</p>
+        <div class="party-highlight-list">
+          <p><strong>زمان</strong><span>جمعه ۳۰ اکتبر · ساعت ۷ تا ۱۱ شب</span></p>
+          <p><strong>مکان</strong><span>Cottonwood Community Center · Sunnyside Apartments (West Village)</span></p>
+          <p><strong>دانشگاهی</strong><span>هر بلیت ۲۰ دلار · هر کاربر دانشگاه می‌تونه ۱ یا ۲ بلیت تهیه کنه</span></p>
+          <p><strong>غیردانشجو</strong><span>هر بلیت ۳۰ دلار · امکان خرید چند بلیت وجود داره</span></p>
+        </div>
+        <p><strong>ظرفیت محدوده!</strong> ثبت‌نام فقط تا ۲۳ اکتبر بازه و در صورت تکمیل ظرفیت زودتر بسته می‌شه.</p>
+      </article>
+    </section>
+
+    <section class="registration-options-section" id="registration-options">
+      <div class="shell">
+        <div class="registration-options-heading">
+          <p class="eyebrow">Registration</p>
+          <h2>Choose one option</h2>
+          <p>All participant information and payment receipt uploads are collected securely in the Google Form—not on this website.</p>
+        </div>
+        <div class="registration-option-grid">
+          <article class="registration-option-card university-option">
+            <span class="option-number">01</span>
+            <h3>University registration</h3>
+            <p>For anyone with an active University of Utah Google account. University sign-in is required. One or two tickets per account.</p>
+            <strong>$20 per ticket</strong>
+            <a class="button" data-student-registration href="#registration-options">Register with University account <span>→</span></a>
+            <small>Your password and Duo approval are handled only by the University/Google login page.</small>
+          </article>
+          <article class="registration-option-card guest-option">
+            <span class="option-number">02</span>
+            <h3>Non-student registration</h3>
+            <p>For guests without a University of Utah account. No University login is required. Multiple tickets may be purchased.</p>
+            <strong>$30 per ticket</strong>
+            <a class="button" data-nonstudent-registration href="#registration-options">Register as non-student <span>→</span></a>
+            <small>A Google sign-in may be requested only to upload the payment receipt privately.</small>
+          </article>
+        </div>
+        <p class="registration-link-status" id="registration-link-status" role="status"></p>
+      </div>
+    </section>
+
+    <section class="party-location-section">
+      <div class="shell party-location-grid">
+        <div>
+          <p class="eyebrow">Location</p>
+          <h2>Cottonwood Community Center</h2>
+          <p class="lead">Sunnyside Apartments · West Village<br>Salt Lake City, Utah</p>
+          <a class="text-link" href="https://www.google.com/maps/search/?api=1&query=Cottonwood+Community+Center+Sunnyside+Apartments+University+of+Utah" target="_blank" rel="noopener">Open in Google Maps <span>↗</span></a>
+        </div>
+        <div class="party-payment-steps">
+          <h3>Payment is simple</h3>
+          <ol>
+            <li><strong>Choose the correct form</strong> above and complete the participant details.</li>
+            <li><strong>Pay with Venmo.</strong> Send the total to <b>@Amirali6112</b> with “Halloween Party + main participant name” in the memo.</li>
+            <li><strong>Upload your receipt</strong> in the private Google Form and submit.</li>
+          </ol>
+        </div>
+      </div>
     </section>
   </main>
-  <footer class="site-footer compact-footer"><div class="shell footer-bottom"><p>© <span id="year"></span> PERSA</p><p>Registered student organization · University of Utah</p></div></footer><script src="assets/registration.js?v=20260930-order-flow" defer></script>
-</body></html>
+
+  <footer class="site-footer compact-footer"><div class="shell footer-bottom"><p>© <span id="year"></span> PERSA</p><p>Registered student organization · University of Utah</p></div></footer>
+  <script src="assets/registration.js?v=20260930-party-registration" defer></script>
+</body>
+</html>

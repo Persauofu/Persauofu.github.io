@@ -47,5 +47,70 @@ body{background:#fffaf1;color:#17213a}
 .ticket-total small{grid-column:1/-1;color:#705d38}
 .guest-fields{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
 @media(max-width:700px){.required-banner{align-items:flex-start;flex-direction:column}.required-banner span{text-align:left}.guest-fields{grid-template-columns:1fr}}
+
+.form-intro{margin:-12px 0 22px;color:#626878;font-size:.86rem;max-width:680px}
+.registration-type-picker{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:0 0 30px;padding:0;border:0}
+.registration-choice{display:flex!important;align-items:flex-start;gap:13px;margin:0!important;padding:20px;border:2px solid rgba(23,33,58,.14);border-radius:16px;background:#fff;cursor:pointer;transition:border-color .2s,box-shadow .2s,transform .2s}
+.registration-choice:hover{transform:translateY(-2px);border-color:rgba(234,24,51,.45)}
+.registration-choice.selected{border-color:#e91935;box-shadow:0 10px 28px rgba(233,25,53,.12)}
+.registration-choice input{width:auto!important;margin:4px 0 0!important;accent-color:#e91935}
+.registration-choice span{display:grid;gap:5px}
+.registration-choice strong{font-family:var(--serif);font-size:1.15rem;color:#17213a}
+.registration-choice small{color:#6d7280;line-height:1.45}
+@media(max-width:700px){.registration-type-picker{grid-template-columns:1fr}}
+
+/* Halloween party guide */
+.party-guide-page{background:#fff9ef;color:#191622}
+.party-guide-main{padding-top:84px}
+.party-guide-hero{position:relative;overflow:hidden;padding:72px 0;background:radial-gradient(circle at 10% 0,rgba(255,180,35,.28),transparent 32%),linear-gradient(125deg,#30102f 0%,#711838 53%,#f66b20 100%);color:#fff}
+.party-guide-hero::after{content:'';position:absolute;inset:auto -8% -230px auto;width:540px;height:540px;border-radius:50%;background:rgba(255,195,55,.16)}
+.party-guide-hero-grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr minmax(300px,430px);gap:70px;align-items:center}
+.party-guide-intro h1{font-family:var(--serif);font-size:clamp(3.4rem,7vw,6.7rem);line-height:.9;letter-spacing:-.035em;margin:12px 0 22px}
+.party-guide-intro .eyebrow{color:#ffd057}
+.party-lead{max-width:680px;font-size:1.16rem;line-height:1.75;color:rgba(255,255,255,.88)}
+.party-register-button{display:inline-flex;margin-top:30px;background:#ffbf36;color:#2b1335;box-shadow:0 18px 35px rgba(17,4,20,.28)}
+.party-register-button:hover{background:#fff;color:#8b1836}
+.secure-note{max-width:600px;margin-top:16px;color:rgba(255,255,255,.68);font-size:.75rem;line-height:1.6}
+.party-flyer-card{margin:0;padding:14px;background:#f3eee4;border-radius:24px;box-shadow:0 30px 70px rgba(26,5,27,.38);transform:rotate(1deg)}
+.party-flyer-card img{display:block;width:100%;border-radius:14px}
+.party-flyer-card figcaption{padding:12px 4px 2px;color:#6e655d;text-align:center;font-size:.68rem;text-transform:uppercase;letter-spacing:.09em}
+.party-details-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;padding-top:80px;padding-bottom:80px}
+.party-copy-card{padding:clamp(28px,4vw,52px);background:#fff;border:1px solid rgba(35,25,33,.1);border-radius:24px;box-shadow:0 20px 60px rgba(66,34,30,.08)}
+.party-copy-card h2{font-family:var(--serif);font-size:clamp(2.25rem,4vw,3.6rem);line-height:1.02;color:#641532;margin:12px 0 25px}
+.party-copy-card>p{line-height:1.8;color:#4a4350}
+.persian-copy{font-family:'Vazirmatn',sans-serif;background:linear-gradient(145deg,#fff,#fff4df)}
+.persian-copy h2{font-family:'Vazirmatn',sans-serif;font-weight:800}
+.party-highlight-list{display:grid;gap:0;margin:28px 0;border-top:1px solid rgba(41,26,37,.12)}
+.party-highlight-list p{display:grid;grid-template-columns:120px 1fr;gap:18px;margin:0;padding:15px 0;border-bottom:1px solid rgba(41,26,37,.12);line-height:1.55}
+.party-highlight-list strong{color:#c83227}
+.persian-copy .party-highlight-list p{grid-template-columns:100px 1fr}
+.party-location-section{padding:80px 0;background:linear-gradient(135deg,#17213a,#30102f);color:#fff}
+.party-location-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:start}
+.party-location-section h2{font-family:var(--serif);font-size:clamp(2.5rem,5vw,4.7rem);line-height:.98;margin:12px 0 22px}
+.party-location-section .lead{color:rgba(255,255,255,.72)}
+.party-location-section .text-link{color:#ffd057}
+.party-payment-steps{padding:38px;border-radius:22px;background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.2)}
+.party-payment-steps h3{font-family:var(--serif);font-size:2rem;margin-bottom:22px}
+.party-payment-steps ol{display:grid;gap:18px;padding-left:22px;color:rgba(255,255,255,.8);line-height:1.65}
+.party-payment-steps strong,.party-payment-steps b{color:#ffd057}
+.party-payment-steps .button{margin-top:22px;background:#f23d35}
+.registration-options-section{padding:95px 0;background:#fff4df;color:#211a25;scroll-margin-top:80px}
+.registration-options-heading{max-width:760px;margin:0 auto 42px;text-align:center}
+.registration-options-heading h2{font-family:var(--serif);font-size:clamp(2.8rem,5vw,4.6rem);color:#641532}
+.registration-options-heading>p:last-child{color:#665d68}
+.registration-option-grid{display:grid;grid-template-columns:1fr 1fr;gap:22px;max-width:980px;margin:auto}
+.registration-option-card{position:relative;display:flex;flex-direction:column;align-items:flex-start;min-height:410px;padding:42px;border-radius:24px;background:#fff;box-shadow:0 18px 55px rgba(73,37,31,.1);border:2px solid transparent}
+.registration-option-card.university-option{border-color:#e91935}
+.registration-option-card.guest-option{border-color:#dfa431}
+.option-number{color:#c83227;font-size:.7rem;font-weight:800;letter-spacing:.16em}
+.registration-option-card h3{margin:18px 0 12px;font-family:var(--serif);font-size:2rem;color:#36132b}
+.registration-option-card p{color:#645c66;line-height:1.7}
+.registration-option-card>strong{margin:10px 0 24px;color:#c83227;font-size:1.35rem}
+.registration-option-card .button{margin-top:auto;width:100%}
+.registration-option-card small{display:block;margin-top:14px;color:#7a737b;line-height:1.55}
+.registration-link-status{min-height:24px;margin:24px 0 0;text-align:center;color:#a20d29;font-weight:700}
+@media(max-width:800px){.registration-option-grid{grid-template-columns:1fr}.registration-option-card{min-height:0}}
+@media(max-width:900px){.party-guide-hero-grid,.party-details-grid,.party-location-grid{grid-template-columns:1fr}.party-guide-hero-grid{gap:45px}.party-flyer-card{max-width:520px;margin-inline:auto}.party-details-grid{padding-top:45px;padding-bottom:45px}.party-location-grid{gap:42px}}
+@media(max-width:600px){.party-guide-main{padding-top:72px}.party-guide-hero{padding:48px 0}.party-guide-intro h1{font-size:3.45rem}.party-guide-intro .registration-required{border-radius:16px;line-height:1.35}.party-highlight-list p,.persian-copy .party-highlight-list p{grid-template-columns:1fr;gap:4px}.party-payment-steps{padding:26px}}
 .nav .brand-logo img{transform:none}
 .event-card,.event-card.featured{background-color:#29324a;background-position:center;background-size:cover;background-repeat:no-repeat}

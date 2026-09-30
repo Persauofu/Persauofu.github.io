@@ -8,5 +8,7 @@
   "venmoHandle": "@Amirali6112",
   "paymentMemoTemplate": "Halloween Party • {attendee full name}",
   "paymentNote": "After registering, pay through Venmo and email a screenshot of the payment to amiralinikeghbal1997@gmail.com. Write “Halloween Party” and the attendee’s full name in the Venmo description.",
-  "registrationFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc2zSJGuHw91NPNYqpB2omZ4VKltlgJdN2y2ziqL6tVqBt9iA/viewform?usp=publish-editor"
+  "registrationFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc2zSJGuHw91NPNYqpB2omZ4VKltlgJdN2y2ziqL6tVqBt9iA/viewform?usp=publish-editor",
+  "studentRegistrationFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc2zSJGuHw91NPNYqpB2omZ4VKltlgJdN2y2ziqL6tVqBt9iA/viewform",
+  "nonStudentRegistrationFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSc2zSJGuHw91NPNYqpB2omZ4VKltlgJdN2y2ziqL6tVqBt9iA/viewform"
 }
