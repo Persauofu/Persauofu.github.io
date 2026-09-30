@@ -105,7 +105,7 @@ function revealItems() {
 async function init() {
   bindNavigation();
   const [site, events, team, gallery] = await Promise.all([
-    getJSON('data/site.json', fallbackSite), getJSON('data/events.json', []), getJSON('data/team.json', []), getJSON('data/gallery.json', [])
+    getJSON('data/site.json?v=20260930-release', fallbackSite), getJSON('data/events.json?v=20260930-release', []), getJSON('data/team.json?v=20260930-release', []), getJSON('data/gallery.json?v=20260930-release', [])
   ]);
   configureLinks(site); renderEvents(events); renderTeam(team); renderGallery(gallery);
   $('#convert-button')?.addEventListener('click', convertName); $('#name-input')?.addEventListener('input', convertName); $('#name-input')?.addEventListener('keydown', e => {if(e.key === 'Enter') convertName();});
