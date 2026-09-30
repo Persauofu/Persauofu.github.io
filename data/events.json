@@ -1,0 +1,38 @@
+[
+  {
+    "id": "halloween-celebration",
+    "title": "Halloween Celebration",
+    "date": "",
+    "time": "Time TBA",
+    "location": "Location TBA",
+    "description": "A PERSA Halloween gathering. Confirm the date, venue, ticket price, and full details before publishing.",
+    "price": "Details soon",
+    "registrationUrl": "registration.html?event=halloween-celebration",
+    "featured": true,
+    "status": "upcoming"
+  },
+  {
+    "id": "yalda-night",
+    "title": "Yalda Night",
+    "date": "",
+    "time": "Time TBA",
+    "location": "Location TBA",
+    "description": "Celebrate the longest night with poetry, music, fruit, and friends.",
+    "price": "Details soon",
+    "registrationUrl": "registration.html?event=yalda-night",
+    "featured": false,
+    "status": "upcoming"
+  },
+  {
+    "id": "nowruz-2027",
+    "title": "Nowruz 1406",
+    "date": "",
+    "time": "Time TBA",
+    "location": "Location TBA",
+    "description": "Welcome spring and the Persian New Year with the whole campus community.",
+    "price": "Details soon",
+    "registrationUrl": "registration.html?event=nowruz-2027",
+    "featured": false,
+    "status": "upcoming"
+  }
+]
