@@ -50,9 +50,10 @@ function renderEvents(events) {
   if (!upcoming.length) { grid.innerHTML = '<div class="empty-card">New events are on the way. Follow PERSA for announcements.</div>'; return; }
   grid.innerHTML = upcoming.map(event => {
     const date = formatDate(event.date);
-    return `<article class="event-card reveal ${event.featured ? 'featured' : ''}">
+    const imageStyle = event.image ? ` style="background-image:linear-gradient(180deg,rgba(20,21,35,.06),rgba(20,21,35,.93)),url('${event.image}')"` : '';
+    return `<article class="event-card reveal ${event.featured ? 'featured' : ''}"${imageStyle}>
       <time class="event-date" datetime="${event.date}"><strong>${date.day}</strong>${date.month}</time>
-      <p class="event-meta">${event.time} · ${event.price}</p>
+      <p class="event-tag">${event.tag || 'Upcoming'}</p><p class="event-meta">${event.time} · ${event.price}</p>
       <h3>${event.title}</h3><p>${event.description}</p>
       <p class="event-meta">${event.location}</p>
       <a class="text-link" href="${event.registrationUrl || `registration.html?event=${event.id}`}">Register <span>→</span></a>

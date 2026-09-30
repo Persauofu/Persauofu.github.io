@@ -1,11 +1,12 @@
 {
   "organizationName": "PERSA",
   "fullName": "Persian Student Association at the University of Utah",
-  "email": "",
-  "instagram": "",
+  "email": "amiralinikeghbal1997@gmail.com",
+  "instagram": "https://www.instagram.com/persa_uofu/",
   "telegram": "",
   "campusConnect": "",
-  "venmoHandle": "",
-  "paymentMemoTemplate": "PERSA • {event} • {attendee name}",
-  "paymentNote": "Venmo is a temporary payment method for listed paid events. Registration is not complete until the event organizer confirms receipt. Never enter payment credentials on this website."
+  "venmoHandle": "@Amirali6112",
+  "paymentMemoTemplate": "Halloween Party • {attendee full name}",
+  "paymentNote": "After registering, pay through Venmo and email a screenshot of the payment to amiralinikeghbal1997@gmail.com. Write “Halloween Party” and the attendee’s full name in the Venmo description.",
+  "registrationFormUrl": ""
 }

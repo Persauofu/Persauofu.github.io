@@ -1,6 +1,6 @@
 [
-  {"name":"Officer name","role":"President","email":"","photo":""},
-  {"name":"Officer name","role":"Vice President","email":"","photo":""},
-  {"name":"Officer name","role":"Treasurer","email":"","photo":""},
-  {"name":"Officer name","role":"Events & Outreach","email":"","photo":""}
+  {"name":"Amirali","role":"President","email":"amiralinikeghbal1997@gmail.com","photo":"assets/images/team/amirali.jpg"},
+  {"name":"Nasim","role":"Executive Team","email":"","photo":"assets/images/team/nasim.jpg"},
+  {"name":"Mehran","role":"Executive Team","email":"","photo":"assets/images/team/mehran.jpg"},
+  {"name":"Negin","role":"Executive Team","email":"","photo":"assets/images/team/negin.jpg"}
 ]
