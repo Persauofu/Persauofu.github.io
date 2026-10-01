@@ -114,3 +114,58 @@ body{background:#fffaf1;color:#17213a}
 @media(max-width:600px){.party-guide-main{padding-top:72px}.party-guide-hero{padding:48px 0}.party-guide-intro h1{font-size:3.45rem}.party-guide-intro .registration-required{border-radius:16px;line-height:1.35}.party-highlight-list p,.persian-copy .party-highlight-list p{grid-template-columns:1fr;gap:4px}.party-payment-steps{padding:26px}}
 .nav .brand-logo img{transform:none}
 .event-card,.event-card.featured{background-color:#29324a;background-position:center;background-size:cover;background-repeat:no-repeat}
+
+/* Iranian celebrations culture page */
+.culture-page{background:#fffaf1;color:#17213a}
+.culture-page-button{margin-top:28px}
+.culture-main{padding-top:84px}
+.culture-hero{position:relative;min-height:700px;display:flex;align-items:flex-end;overflow:hidden;color:white}
+.culture-hero>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.culture-hero-shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(8,19,39,.92) 0%,rgba(8,19,39,.58) 47%,rgba(8,19,39,.12) 78%),linear-gradient(0deg,rgba(8,19,39,.5),transparent 45%)}
+.culture-hero-copy{position:relative;z-index:1;padding-bottom:76px}
+.culture-hero-copy h1{max-width:820px;font-size:clamp(3.7rem,7vw,7.3rem)}
+.culture-hero-copy>p:not(.eyebrow){max-width:610px;margin:25px 0;color:rgba(255,255,255,.88);font-size:1.1rem}
+.culture-hero-copy .eyebrow{color:#ffd26f}
+.culture-intro{display:grid;grid-template-columns:.7fr 1.3fr;gap:9vw;padding-top:90px;padding-bottom:90px}
+.culture-intro h2,.culture-section-heading h2,.culture-sources h2,.culture-join h2{font-size:clamp(2.7rem,5vw,5rem);color:#43152f}
+.culture-intro-copy{color:#4d5360;font-size:1rem}
+.culture-intro-copy p{margin:0 0 20px}
+.culture-note{padding:20px 22px;border-left:4px solid #d99a25;background:#fff0c8}
+.culture-calendar{padding:95px 0;background:#f2eadc}
+.culture-section-heading{max-width:850px;margin-bottom:55px}
+.culture-section-heading>p:last-child{color:#656a75}
+.month-group{display:grid;grid-template-columns:210px 1fr;gap:30px;padding:42px 0;border-top:1px solid rgba(23,33,58,.14)}
+.month-label{position:sticky;top:110px;align-self:start}
+.month-label>span{display:inline-grid;place-items:center;min-width:54px;height:36px;padding:0 10px;border-radius:999px;background:#17213a;color:white;font-weight:800;font-size:.72rem}
+.month-label h3{margin:14px 0 2px;font-family:var(--serif);font-size:1.65rem;color:#42142f}
+.month-label p{margin:0;color:#77717a;font-size:.73rem;text-transform:uppercase;letter-spacing:.1em}
+.festival-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.two-card-grid{grid-template-columns:repeat(2,1fr)}
+.one-card-grid{grid-template-columns:1fr}
+.festival-card{padding:27px;border:1px solid rgba(23,33,58,.1);border-radius:20px;background:rgba(255,255,255,.75);box-shadow:0 10px 26px rgba(47,35,34,.05)}
+.festival-card.featured-festival{background:white}
+.festival-date{display:inline-block;margin-bottom:14px;color:#bb1830;font-size:.68rem;font-weight:800;letter-spacing:.11em;text-transform:uppercase}
+.festival-card h3{font-family:var(--serif);font-size:1.75rem;color:#2f1730}
+.festival-card>p{color:#5e5b63;font-size:.82rem;line-height:1.68}
+.festival-card .festival-tag{margin:5px 0 16px;color:#a66a05;font-size:.65rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.festival-card .theology{padding-top:13px;border-top:1px solid rgba(23,33,58,.1)}
+.festival-card .story{color:#6e3e2c}
+.spring-group .festival-card{border-top:4px solid #ef6d8e}.summer-group .festival-card{border-top:4px solid #2d9ea5}.autumn-group .festival-card{border-top:4px solid #d7792b}.winter-group .festival-card{border-top:4px solid #526da3}
+.gahambar-section{padding:95px 0;background:linear-gradient(140deg,#142d4f,#29466c);color:white}
+.gahambar-section .culture-section-heading h2{color:white}.gahambar-section .culture-section-heading>p:last-child{color:#c6d3e2}.gahambar-section .eyebrow{color:#ffd26f}
+.gahambar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.gahambar-grid article{padding:28px;border:1px solid rgba(255,255,255,.17);border-radius:18px;background:rgba(255,255,255,.07)}
+.gahambar-grid span{color:#ffd26f;font-size:.67rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase}
+.gahambar-grid h3{margin:10px 0 5px;font-family:var(--serif);font-size:1.5rem}.gahambar-grid p{margin:0;color:#d4dce8;font-size:.8rem}
+.food-section{padding:95px 0;background:#e9f7ee}
+.recipe-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.recipe-card{padding:32px;border-radius:20px;background:white;box-shadow:0 12px 32px rgba(28,76,49,.08)}
+.recipe-card>span{color:#158047;font-size:.68rem;font-weight:800;letter-spacing:.13em;text-transform:uppercase}
+.recipe-card h3{margin:10px 0 16px;font-family:var(--serif);font-size:1.8rem;color:#173d2a}
+.recipe-card ol{padding-left:21px;color:#505e55;font-size:.85rem}.recipe-card p{color:#667068;font-size:.8rem}
+.culture-sources{display:grid;grid-template-columns:.75fr 1.25fr;gap:8vw;padding-top:90px;padding-bottom:90px}
+.culture-sources>div:last-child{color:#5b606c}.culture-sources ul{padding-left:20px}.culture-sources li{margin:9px 0}.culture-sources a{color:#bd1830;text-decoration:underline}
+.culture-join{padding:30px 0 90px}.culture-join-card{display:grid;grid-template-columns:1.2fr .8fr;gap:50px;align-items:center;padding:55px;border-radius:26px;background:linear-gradient(120deg,#fff0d1,#ffe1e5)}
+.culture-join-card .button-row{justify-content:flex-end}
+@media(max-width:900px){.culture-main{padding-top:72px}.culture-hero{min-height:620px}.culture-intro,.culture-sources,.culture-join-card{grid-template-columns:1fr}.month-group{grid-template-columns:1fr}.month-label{position:static}.festival-grid{grid-template-columns:1fr 1fr}.gahambar-grid{grid-template-columns:1fr 1fr}.culture-join-card .button-row{justify-content:flex-start}}
+@media(max-width:620px){.culture-hero{min-height:680px}.culture-hero-shade{background:linear-gradient(0deg,rgba(8,19,39,.95),rgba(8,19,39,.24))}.culture-hero-copy{padding-bottom:48px}.culture-hero-copy h1{font-size:3.65rem}.festival-grid,.two-card-grid,.recipe-grid,.gahambar-grid{grid-template-columns:1fr}.festival-card{padding:24px}.culture-calendar,.gahambar-section,.food-section{padding:70px 0}.culture-join-card{padding:34px 25px}}

@@ -12,7 +12,7 @@ async function getJSON(path, fallback) {
   }
 }
 
-const fallbackSite = { email: '', instagram: '', telegram: '', campusConnect: '', venmoHandle: '' };
+const fallbackSite = { email: '', instagram: '', telegram: '', telegramNasim: '', telegramAmirali: '', campusConnect: '', venmoHandle: '' };
 
 function safeLink(value, type) {
   if (!value) return '#';
@@ -21,7 +21,7 @@ function safeLink(value, type) {
 }
 
 function configureLinks(site) {
-  ['instagram', 'telegram', 'campusConnect', 'email'].forEach(key => {
+  ['instagram', 'telegram', 'telegramNasim', 'telegramAmirali', 'campusConnect', 'email'].forEach(key => {
     $$(`[data-link="${key}"]`).forEach(link => {
       const value = site[key];
       link.href = safeLink(value, key);
