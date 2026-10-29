@@ -56,7 +56,7 @@ function renderEvents(events) {
       <p class="event-tag">${event.tag || 'Upcoming'}</p><p class="event-meta">${event.time} · ${event.price}</p>
       <h3>${event.title}</h3><p>${event.description}</p>
       <p class="event-meta">${event.location}</p>
-      <a class="text-link" href="${event.registrationUrl || `registration.html?event=${event.id}`}">Register <span>→</span></a>
+      <a class="text-link" href="${event.registrationUrl || `registration.html?event=${event.id}`}">${event.actionLabel || 'View details'} <span>→</span></a>
     </article>`;
   }).join('');
 }
